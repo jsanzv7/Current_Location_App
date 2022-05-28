@@ -1,4 +1,4 @@
-package com.example.my_coordinates
+package com.example.currentlocationapp
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -13,7 +13,7 @@ import android.provider.Settings
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import com.example.currentlocationapp.R
+import com.example.currentlocationapp.R.*
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
@@ -26,14 +26,14 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(layout.activity_main)
 
         /* Getting the current location of the user. */
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
         /* Getting the latitude from the textview. */
-        tvLatitude = findViewById(R.id.tv_latitude)
+        tvLatitude = findViewById(id.tv_latitude)
         /* Getting the longitude from the textview. */
-        tvLongitude = findViewById(R.id.tv_longitude)
+        tvLongitude = findViewById(id.tv_longitude)
 
         getCurrentLocation()
     }
