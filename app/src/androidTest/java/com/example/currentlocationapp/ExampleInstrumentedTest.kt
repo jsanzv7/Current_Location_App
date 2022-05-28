@@ -1,4 +1,4 @@
-package com.example.`My Coordinates`
+package com.example.currentlocationapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
