@@ -1,4 +1,4 @@
-package com.example.currentlocationapp
+package com.example.my_coordinates
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -13,8 +13,7 @@ import android.provider.Settings
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import androidx.core.location.LocationManagerCompat.getCurrentLocation
-import androidx.core.location.LocationManagerCompat.isLocationEnabled
+import com.example.currentlocationapp.R
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 

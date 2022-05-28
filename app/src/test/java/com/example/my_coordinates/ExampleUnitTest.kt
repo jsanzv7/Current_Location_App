@@ -1,4 +1,4 @@
-package com.example.currentlocationapp
+package com.example.`My Coordinates`
 
 import org.junit.Test
 
